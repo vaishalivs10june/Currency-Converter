@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(223, 216, 206);
+    background-image: url(https://media1.tenor.com/m/-clVW5FQfYkAAAAC/money-animation.gif);
+    background-size: cover;
+}
+
+.container{
+    background-color: rgb(140, 124, 102);
+    padding : 2rem;
+    border-radius: 1rem;
+    height: 65vh;
+    width: 60vh;
+    
+}
+.container img{
+    image-orientation: calc();
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 100 ;
+}
+form{
+    margin: 2rem 0 2rem 0 ;
+}
+form select, button, input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+input{
+    background-color:  rgb(72, 63, 50);
+    color: white;
+}
+select{
+    background: none;
+    color: rgb(49, 43, 34);
+    font-size: 1rem;
+    width: auto;
+}
+form input{
+    border: 1px solid black;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+.select-container img{
+    max-width: 2rem;
+    margin-left: 0.25rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(72, 63, 50);
+    color: black;
+}
+.msg{
+    margin: 1rem 0 1rem 0;
+}
+button{
+    margin: 1rem 0 1rem 0;
+    border: 1px solid black;
+    height: 2rem;
+    color: white;
+    font-size: 1.15rem;
+    background-color:  rgb(72, 63, 50);
+    cursor: pointer;
+}
